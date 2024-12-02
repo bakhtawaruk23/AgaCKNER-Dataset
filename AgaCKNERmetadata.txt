@@ -1,0 +1,77 @@
+AgaNER Dataset Metadata
+=======================
+
+DATASET INFORMATION
+------------------
+Name: AgaCorpus - Kurdish Sorani Named Entity Recognition Dataset
+Version: 1.0.0
+Release Date: 2024
+Language: Kurdish Sorani (ckb)
+Domain: News Articles
+Size: 64,563 tokens | 2,534 sentences
+Format: CoNLL (token - BIO-tag)
+
+DATA COLLECTION
+--------------
+Primary Source: Rudaw Media Network (www.rudaw.net)
+Collection Period: January 2023 - December 2023
+News Categories:
+- Kurdistan News
+- Middle East News
+- World News
+- Economic News
+- Sports News
+
+PREPROCESSING PIPELINE
+---------------------
+1. Text Extraction & Cleaning
+   - HTML tag removal
+   - Non-Kurdish character filtering
+   - Whitespace  
+
+2. Kurdish-Specific Processing
+   - KLPT (Kurdish Language Processing Toolkit) application
+   - English numeral conversion to Kurdish
+   - Sentence segmentation
+   - Tokenization optimization
+
+ANNOTATION SCHEMA
+----------------
+Entity Types:
+- PERSON: Individual names
+- LOCATION: Geographic locations, cities, countries
+- ORGANIZATION: Companies, institutions, agencies
+- DATE: Temporal expressions
+- MISCELLANEOUS: Other named entities (Historical, Scientific Names, Sports, Currency, Unique Names, Drugs) 
+
+BIO Tagging:
+   ---
+B-[TYPE]: Beginning of entity
+I-[TYPE]: Continuation of entity
+O: Not part of any entity
+
+QUALITY ASSURANCE
+----------------
+Annotation Process:
+- Initial annotation by Kurdish NLP specialists
+- Review by native Kurdish Sorani speakers
+- Cross-validation by linguistic experts
+- Consistency checks via automated tools
+- Manual error correction and standardization
+
+USAGE & CITATION
+---------------
+Usage Policy:
+- Research and academic use permitted
+- Commercial use requires explicit permission
+- Modification allowed with proper attribution
+
+Citation:
+[Citation format and paper details to be added upon publication]
+
+CONTACT
+-------
+Research Team: [Names]
+Institution: [Institution Name]
+Email: [Contact email]
+Project Repository: [Repository URL]
