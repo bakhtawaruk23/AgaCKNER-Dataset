@@ -1,9 +1,9 @@
 # AgaCKNER-Dataset
 Aga Central Kurdish Named Entity Recognition Dataset (CKNER) and MetaData file.
 
-===============================
+--------------
 Contact
-===============================
+--------------
 Research Team: 
 - [Bakhtawar Abdalla]
 - [Rebwar Nabi]
